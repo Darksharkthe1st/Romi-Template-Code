@@ -41,7 +41,9 @@ wpi.sim.addGui().defaultEnabled = true
 wpi.sim.addDriverstation()
 
 //Sets the websocket client remote host.
-wpi.sim.envVar("HALSIMWS_HOST", "10.0.0.2")
+
+//TODO: DO THIS
+wpi.sim.envVar("HALSIMWS_HOST", "PLACEHOLDER IP ADDRESS" /* TODO: ADD IN YOUR ROMI ROBOT IP ADDRESS HERE */)
 wpi.sim.addWebsocketsServer().defaultEnabled = true
 wpi.sim.addWebsocketsClient().defaultEnabled = true
 
